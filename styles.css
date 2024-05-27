@@ -1,0 +1,41 @@
+body {
+    font-family: 'Consolas', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    color: #0f0; /* Green text, typical of old-school terminals */
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #0f0;
+    border-radius: 5px;
+    background-color: #000;
+}
+
+input[type="text"] {
+    color: #0f0;
+    background-color: #222;
+    border: 1px solid #0f0;
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #222;
+    color: #0f0;
+    border: 1px solid #0f0;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
